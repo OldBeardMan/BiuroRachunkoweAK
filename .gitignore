@@ -1,0 +1,13 @@
+# Materiały źródłowe - nie są częścią publikowanej strony
+*.docx
+assets/20241130_*.jpg
+
+# Systemowe
+.DS_Store
+Thumbs.db
+
+# Edytory
+.vscode/
+.idea/
+*.swp
+*~

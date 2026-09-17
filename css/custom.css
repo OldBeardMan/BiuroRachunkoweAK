@@ -1,0 +1,40 @@
+/* Biuro Rachunkowe Agnieszka Krupa - drobne uzupełnienia ponad Bootstrapa */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Portrety */
+.portrait {
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+}
+
+.portrait-hero {
+    max-height: 520px;
+}
+
+/* Nagłówki tabel w cenniku - równe wyrównanie wielowierszowych etykiet */
+.table > thead th {
+    vertical-align: bottom;
+}
+
+/* Kotwice sekcji nie chowają się pod nawigacją */
+[id] {
+    scroll-margin-top: 1.5rem;
+}
+
+/* Karty-skróty na stronie cennika */
+a .card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+a .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+a .card h6 {
+    color: var(--bs-body-color);
+}
