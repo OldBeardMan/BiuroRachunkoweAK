@@ -39,166 +39,59 @@
                 </div>
             </div>
 
-            <!-- Skróty -->
-            <div class="row gx-4 gx-lg-5 mb-5">
-                <div class="col-sm-6 col-lg-3 mb-3">
-                    <a class="text-decoration-none" href="#kpir">
-                        <div class="card h-100 text-center">
-                            <div class="card-body">
-                                <i class="bi bi-book fs-2 text-primary"></i>
-                                <h6 class="mt-2 mb-0">Ryczałt i KPiR</h6>
-                            </div>
+            <!-- Księgowość - ceny od -->
+            <h2 class="h3 mb-3" id="ksiegowosc">Obsługa księgowa</h2>
+            <p class="text-muted">Stawki miesięczne. Ostateczna cena zależy od liczby dokumentów księgowych i tego, czy firma jest czynnym podatnikiem VAT.</p>
+            <div class="row gx-4 gx-lg-5 mb-4">
+                <div class="col-md-6 col-xl-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="bi bi-receipt fs-2 text-primary"></i>
+                            <h3 class="h5 mt-2">Ryczałt</h3>
+                            <p class="small text-muted">Ewidencja przychodów</p>
+                            <ul class="list-unstyled price-list mb-0">
+                                <li><span class="small text-muted">zwolniony z VAT</span><span class="price">od 300 zł</span></li>
+                                <li><span class="small text-muted">czynny VAT + JPK</span><span class="price">od 380 zł</span></li>
+                            </ul>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 mb-3">
-                    <a class="text-decoration-none" href="#ksiega-handlowa">
-                        <div class="card h-100 text-center">
-                            <div class="card-body">
-                                <i class="bi bi-journals fs-2 text-primary"></i>
-                                <h6 class="mt-2 mb-0">Pełna księgowość</h6>
-                            </div>
+                <div class="col-md-6 col-xl-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="bi bi-book fs-2 text-primary"></i>
+                            <h3 class="h5 mt-2">KPiR</h3>
+                            <p class="small text-muted">Podatkowa księga przychodów i rozchodów</p>
+                            <ul class="list-unstyled price-list mb-0">
+                                <li><span class="small text-muted">zwolniony z VAT</span><span class="price">od 320 zł</span></li>
+                                <li><span class="small text-muted">czynny VAT + JPK</span><span class="price">od 380 zł</span></li>
+                            </ul>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 mb-3">
-                    <a class="text-decoration-none" href="#kadry">
-                        <div class="card h-100 text-center">
-                            <div class="card-body">
-                                <i class="bi bi-people-fill fs-2 text-primary"></i>
-                                <h6 class="mt-2 mb-0">Kadry i płace</h6>
-                            </div>
+                <div class="col-md-6 col-xl-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="bi bi-journals fs-2 text-primary"></i>
+                            <h3 class="h5 mt-2">Pełna księgowość</h3>
+                            <p class="small text-muted">Księga handlowa</p>
+                            <ul class="list-unstyled price-list mb-0">
+                                <li><span class="small text-muted">zwolniony z VAT</span><span class="price">od 700 zł</span></li>
+                                <li><span class="small text-muted">czynny VAT</span><span class="price">od 800 zł</span></li>
+                            </ul>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 mb-3">
-                    <a class="text-decoration-none" href="#dodatkowe">
-                        <div class="card h-100 text-center">
-                            <div class="card-body">
-                                <i class="bi bi-plus-circle fs-2 text-primary"></i>
-                                <h6 class="mt-2 mb-0">Usługi dodatkowe</h6>
-                            </div>
+                <div class="col-md-6 col-xl-3 mb-4">
+                    <div class="card h-100 border-primary">
+                        <div class="card-body d-flex flex-column">
+                            <i class="bi bi-chat-square-text fs-2 text-primary"></i>
+                            <h3 class="h5 mt-2">Wycena indywidualna</h3>
+                            <p class="small text-muted">Duża liczba dokumentów, nietypowa działalność, kilka firm albo zakres szyty na miarę? Przygotuję ofertę dopasowaną do Twojej firmy.</p>
+                            <a class="btn btn-primary btn-sm mt-auto" href="kontakt.html">Poproś o wycenę</a>
                         </div>
-                    </a>
+                    </div>
                 </div>
-            </div>
-
-            <!-- KPiR i ryczałt -->
-            <h2 class="h3 mb-3" id="kpir">Podatkowa Księga Przychodów i Rozchodów (KPiR) i ryczałt</h2>
-            <p class="text-muted">Stawki miesięczne. Kolumny zależą od tego, czy firma jest czynnym podatnikiem VAT.</p>
-            <div class="table-responsive mb-4">
-                <table class="table table-bordered table-hover align-middle">
-                    <thead class="table-dark">
-                        <tr>
-                            <th scope="col">Liczba zapisów</th>
-                            <th scope="col" class="text-end">Ryczałt<br/><span class="fw-normal small">bez ewidencji VAT</span></th>
-                            <th scope="col" class="text-end">Ryczałt<br/><span class="fw-normal small">z ewidencją VAT + JPK_VAT</span></th>
-                            <th scope="col" class="text-end">KPiR<br/><span class="fw-normal small">bez ewidencji VAT</span></th>
-                            <th scope="col" class="text-end">KPiR<br/><span class="fw-normal small">z ewidencją VAT + JPK_VAT</span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" class="fw-normal">Do 15 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">300,00 zł</td>
-                            <td class="text-end fw-bold">380,00 zł</td>
-                            <td class="text-end fw-bold">320,00 zł</td>
-                            <td class="text-end fw-bold">380,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">16-30 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">350,00 zł</td>
-                            <td class="text-end fw-bold">450,00 zł</td>
-                            <td class="text-end fw-bold">420,00 zł</td>
-                            <td class="text-end fw-bold">460,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">31-60 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">470,00 zł</td>
-                            <td class="text-end fw-bold">570,00 zł</td>
-                            <td class="text-end fw-bold">530,00 zł</td>
-                            <td class="text-end fw-bold">600,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">61-90 dokumentów księgowych</th>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">7,50 zł</span></td>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">9,50 zł</span></td>
-                            <td class="text-end fw-bold">680,00 zł</td>
-                            <td class="text-end fw-bold">770,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">91-120 dokumentów księgowych</th>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">7,50 zł</span></td>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">9,50 zł</span></td>
-                            <td class="text-end fw-bold">840,00 zł</td>
-                            <td class="text-end fw-bold">930,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">Powyżej 120 dokumentów księgowych</th>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">7,50 zł</span></td>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">9,50 zł</span></td>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">7,50 zł</span></td>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">9,50 zł</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Księga handlowa -->
-            <h2 class="h3 mb-3" id="ksiega-handlowa">Księga handlowa (pełna księgowość)</h2>
-            <p class="text-muted">Stawki miesięczne dla podmiotów prowadzących księgi rachunkowe.</p>
-            <div class="table-responsive mb-4">
-                <table class="table table-bordered table-hover align-middle">
-                    <thead class="table-dark">
-                        <tr>
-                            <th scope="col">Liczba zapisów</th>
-                            <th scope="col" class="text-end">Księga handlowa<br/><span class="fw-normal small">bez ewidencji VAT</span></th>
-                            <th scope="col" class="text-end">Księga handlowa<br/><span class="fw-normal small">z ewidencją VAT</span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" class="fw-normal">Do 10 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">700,00 zł</td>
-                            <td class="text-end fw-bold">800,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">11-20 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">940,00 zł</td>
-                            <td class="text-end fw-bold">1 050,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">21-40 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">1 150,00 zł</td>
-                            <td class="text-end fw-bold">1 270,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">41-70 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">1 470,00 zł</td>
-                            <td class="text-end fw-bold">1 580,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">71-100 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">1 770,00 zł</td>
-                            <td class="text-end fw-bold">1 890,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">101-130 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">2 100,00 zł</td>
-                            <td class="text-end fw-bold">2 200,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">131-200 dokumentów księgowych</th>
-                            <td class="text-end fw-bold">2 800,00 zł</td>
-                            <td class="text-end fw-bold">2 900,00 zł</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="fw-normal">Powyżej 200 dokumentów księgowych</th>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">7,50 zł</span></td>
-                            <td class="text-end small text-muted">każdy dodatkowy dokument <span class="fw-bold text-body">9,50 zł</span></td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
 
             <div class="card bg-light mb-5">

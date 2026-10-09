@@ -25,16 +25,18 @@ html {
     scroll-margin-top: 1.5rem;
 }
 
-/* Karty-skróty na stronie cennika */
-a .card {
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+/* Ceny "od" w kartach cennika */
+.price-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--bs-border-color);
 }
 
-a .card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-}
-
-a .card h6 {
-    color: var(--bs-body-color);
+.price-list .price {
+    font-weight: 700;
+    font-size: 1.15rem;
+    white-space: nowrap;
 }
